@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="testcasessuite" verbose="2">
+<!-- <groups>
+<run>
+<include name ="apple"></include>
+<include name ="vivo"></include>
+</run>
+</groups> -->
+
+<listeners>
+<listener class-name="testNG.listnerexample"></listener>
+</listeners>
+<!-- <parameter name="testq" value="123"></parameter> -->
+
+
+<test name="testcases">
+<classes> 
+<class name="testNG.DriveCar"></class>
+<!-- <class name="testNG.beforesuitemethod"></class>
+<class name="testNG.Dependancymethods"></class>
+<class name="testNG.groupingmethod"></class>
+<class name="testNG.parameterization"></class>
+<class name="testNG.parameterization"></class> -->
+
+</classes>
+</test>
+</suite>
